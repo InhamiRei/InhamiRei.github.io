@@ -1,68 +1,44 @@
-## 目录
+# T-Cat 猫咪相册
 
-### JavaScript
+一个展示可爱猫咪照片的网站，使用 HTML、CSS 和 JavaScript 构建。
 
-- <a href="https://inhamirei.github.io/JavaScript/Array/" target="_blank">Array 方法</a>
-- <a href="https://inhamirei.github.io/JavaScript/Math/" target="_blank">Math 方法</a>
+## 功能特点
 
-### React
+- 响应式设计，适配各种设备
+- 暗色主题支持
+- 瀑布流图片布局
+- 图片预览功能
 
-- <a href="https://inhamirei.github.io/React/LifeCycle/" target="_blank">生命周期</a>
-- <a href="https://inhamirei.github.io/React/ReactBasic/" target="_blank">基础知识</a>
-- <a href="https://inhamirei.github.io/React/ResponsiveAndData/" target="_blank">响应式设计和数据的绑定</a>
-- <a href="https://inhamirei.github.io/React/ComponentValue/" target="_blank">组件之间传值</a>
-- <a href="https://inhamirei.github.io/React/PropTypes/" target="_blank">PropTypes 校验传递值</a>
-- <a href="https://inhamirei.github.io/React/UseRef/" target="_blank">Ref 的使用方法</a>
-- <a href="https://inhamirei.github.io/React/Plug-in/" target="_blank">附录 1：SimpleReactSnippets 插件</a>
+## 部署说明
 
-### Redux
+1. 克隆仓库：
+```bash
+git clone https://github.com/你的用户名/T-Cat.git
+```
 
-- <a href="https://inhamirei.github.io/Redux/StoreReducer/" target="_blank">store 和 reducer</a>
-- <a href="https://inhamirei.github.io/Redux/AddAndDelete/" target="_blank">添加和删除方法</a>
-- <a href="https://inhamirei.github.io/Redux/OrganizeDocuments/" target="_blank">整理分离文件</a>
-- <a href="https://inhamirei.github.io/Redux/IimportantPoints/" target="_blank">常错的三点</a>
+2. 进入项目目录：
+```bash
+cd T-Cat
+```
 
-### VuePress
+3. 部署到 GitHub Pages：
+   - 在 GitHub 仓库设置中启用 GitHub Pages
+   - 选择 main 分支作为部署分支
+   - 等待部署完成
 
-- <a href="https://inhamirei.github.io/JavaScript/Math/" target="_blank">Math 方法</a>
+## 访问网站
 
-### Vue-cli
+部署完成后，可以通过以下地址访问网站：
 
-- <a href="https://inhamirei.github.io/vuePress/stepPit/" target="_blank">踩坑</a>
+https://你的用户名.github.io/T-Cat
 
-### Git
+## 技术栈
 
-- <a href="https://inhamirei.github.io/Git/GitCommon/" target="_blank">基本指令</a>
-- <a href="https://inhamirei.github.io/Git/GitOther/" target="_blank">其他指令</a>
-- <a href="https://inhamirei.github.io/Git/GitPractice/" target="_blank">合作开发流程</a>
+- HTML5
+- CSS3
+- JavaScript
+- Font Awesome 图标库
 
-### MarkDown
+## 许可证
 
-- <a href="https://inhamirei.github.io/MarkDown/BaseUse/" target="_blank">基本用法</a>
-- <a href="https://inhamirei.github.io/MarkDown/VuePress/" target="_blank">VuePress 拓展</a>
-
-### 更新日志
-
-- <a href="https://inhamirei.github.io/update/update_2021/" target="_blank">2021</a>
-
-### 附录 1：芋圆社区部署
-
-- <a href="https://inhamirei.github.io/community/OutLine/" target="_blank">基本指令</a>
-- <a href="https://inhamirei.github.io/community/FinalShell/" target="_blank">其他指令</a>
-- <a href="https://inhamirei.github.io/community/Other/" target="_blank">合作开发流程</a>
-
-### 附录 2：面试题
-
-……
-
-### 附录 3：算法题
-
-……
-
-### 附录 4：Emoji
-
-……
-
-## 社区
-
-- <a href="https://inhami.com/" target="_blank">芋圆社区</a>
+© 2023 T-Cat. All rights reserved.

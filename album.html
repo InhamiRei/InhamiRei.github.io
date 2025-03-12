@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>T-Cat - 猫咪相册</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/album.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+    <header>
+        <nav class="navbar">
+            <div class="logo">T-Cat</div>
+            <ul class="nav-links">
+                <li><a href="index.html">首页</a></li>
+                <li><a href="album.html" class="active">相册</a></li>
+                <li><a href="#about">关于</a></li>
+            </ul>
+            <div class="theme-toggle">
+                <i class="fas fa-moon"></i>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+        <section class="album-header">
+            <h1>猫咪相册</h1>
+            <p>记录每一个精彩瞬间</p>
+        </section>
+
+        <section class="album-container">
+            <div class="masonry">
+                <!-- 这里使用占位符，实际使用时替换为真实图片 -->
+                <div class="masonry-item">
+                    <div class="image-placeholder" style="height: 200px;"></div>
+                    <div class="image-caption">窗边的午后时光</div>
+                </div>
+                <div class="masonry-item">
+                    <div class="image-placeholder" style="height: 180px;"></div>
+                    <div class="image-caption">好奇的小眼神</div>
+                </div>
+                <div class="masonry-item">
+                    <div class="image-placeholder" style="height: 180px;"></div>
+                    <div class="image-caption">舒适的睡姿</div>
+                </div>
+                <div class="masonry-item">
+                    <div class="image-placeholder" style="height: 200px;"></div>
+                    <div class="image-caption">玩耍的时刻</div>
+                </div>
+                <div class="masonry-item">
+                    <div class="image-placeholder" style="height: 160px;"></div>
+                    <div class="image-caption">阳光下的剪影</div>
+                </div>
+                <div class="masonry-item">
+                    <div class="image-placeholder" style="height: 180px;"></div>
+                    <div class="image-caption">慵懒的下午</div>
+                </div>
+                <div class="masonry-item">
+                    <div class="image-placeholder" style="height: 170px;"></div>
+                    <div class="image-caption">好奇的探索</div>
+                </div>
+                <div class="masonry-item">
+                    <div class="image-placeholder" style="height: 190px;"></div>
+                    <div class="image-caption">专注的眼神</div>
+                </div>
+                <div class="masonry-item">
+                    <div class="image-placeholder" style="height: 190px;"></div>
+                    <div class="image-caption">伸懒腰</div>
+                </div>
+                <div class="masonry-item">
+                    <div class="image-placeholder" style="height: 210px;"></div>
+                    <div class="image-caption">捕捉玩具的瞬间</div>
+                </div>
+                <div class="masonry-item">
+                    <div class="image-placeholder" style="height: 230px;"></div>
+                    <div class="image-caption">好奇宝宝</div>
+                </div>
+                <div class="masonry-item">
+                    <div class="image-placeholder" style="height: 270px;"></div>
+                    <div class="image-caption">窗台上的守望者</div>
+                </div>
+            </div>
+            <div class="loading">
+                <div class="loading-spinner"></div>
+                <p>加载更多...</p>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2023 T-Cat. All rights reserved.</p>
+    </footer>
+
+    <script src="js/main.js"></script>
+    <script src="js/album.js"></script>
+    <script src="js/preview.js"></script>
+</body>
+</html>
